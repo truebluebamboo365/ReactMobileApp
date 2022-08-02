@@ -29,7 +29,7 @@ const Home: React.FC = () => {
       <IonContent fullscreen>
         <IonList>
           { data && data.length > 0 && data.map((item: any, index) => (
-          <IonItem key ={index}>
+          <IonItem key ={index} routerLink={`details/${item.studentID}`}>
           <IonLabel>{item.fullName}</IonLabel>
         </IonItem>
 
