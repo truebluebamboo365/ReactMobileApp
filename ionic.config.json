@@ -1,0 +1,7 @@
+{
+  "name": "ReactMobileApp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
